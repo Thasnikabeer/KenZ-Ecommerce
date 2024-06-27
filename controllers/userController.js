@@ -4,7 +4,7 @@ const bcrypt = require('bcrypt');
 const nodemailer= require("nodemailer");
 const config  = require("../config/config")
 const randomstring = require("randomstring");
-
+console.log("second commit changes ")
 //generate hashed password
 const securePassword = async(password)=>{
     try{
